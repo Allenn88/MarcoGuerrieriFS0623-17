@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Open+Sans:wght@400;700&family=Outfit:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+Body{
+    background-color: #666666;
+    font-family: 'indie flower';
+    font-size: 1.8rem;
+}
+body p{
+    font-size: 0.8rem;
+}
+
+/*.post{
+    border: 2px solid black;
+    width: 120px;
+    height: 100px;
+    margin: 10px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 1);
+}*/
+.postit{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px
+}
+.postit h2{
+    padding-top: 30px;
+    font-weight: bold;
+}
+.post1 {
+    width: 23%;
+    height: 120px;
+    margin-bottom: 25px;
+    text-align: center;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 1), inset 0px -3px 5px rgba(102, 102, 102, 0.5);
+    background-color: #FAFBC9 ;
+    rotate: -5deg;
+    transition: transform 2s; 
+}
+.post2 {
+    width: 23%;
+    height: 120px;
+    margin-bottom: 25px;
+    text-align: center;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 1), inset 0px -3px 5px rgba(102, 102, 102, 0.5);
+    background-color: #C9F9CB ;
+    background: linear-gradient(to bottom, #C9F9CB, #666666(0, 0, 0, 1));
+    rotate: 5deg;
+    transition: transform 2s; 
+}
+.post3 {
+    width: 23%;
+    height: 120px;
+    margin-bottom: 25px;
+    text-align: center;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 1), inset 0px -3px 5px rgba(102, 102, 102, 0.5);    background-color: #C9C9F7 ;
+    background: linear-gradient(to bottom, #C9C9F7, #666666(0, 0, 0, 1));
+    rotate: -5deg;
+    transition: transform 2s; 
+}
+.post4 {
+    width: 23%;
+    height: 120px;
+    margin-bottom: 25px;
+    text-align: center;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 1), inset 0px -3px 5px rgba(102, 102, 102, 0.5);    background-color: #C9F9CB ;
+    background: linear-gradient(to bottom, #C9F9CB, #666666(0, 0, 0, 1));
+    rotate: 5deg;
+    transition: transform 2s; 
+}
+.post5 {
+    width: 23%;
+    height: 120px;
+    text-align: center;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 1), inset 0px -3px 5px rgba(102, 102, 102, 0.5);
+    background-color: #FAFBC9 ;
+    background: linear-gradient(to bottom, #FAFBC9, #666666(0, 0, 0, 1));
+    rotate: -5deg;
+    transition: transform 2s; 
+}
+.post6 {
+    width: 23%;
+    height: 120px;
+    text-align: center;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 1), inset 0px -3px 5px rgba(102, 102, 102, 0.5);
+    background-color: #C9C9F7 ;
+    background: linear-gradient(to bottom, #C9C9F7, #666666(0, 0, 0, 1));
+    rotate: -5deg;
+    transition: transform 2s; 
+}
+.post7 {
+    width: 23%;
+    height: 120px;
+    text-align: center;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 1), inset 0px -3px 5px rgba(102, 102, 102, 0.5);
+    background-color: #FAFBC9 ;
+    background: linear-gradient(to bottom, #FAFBC9, #666666(0, 0, 0, 1));
+    rotate: -5deg;
+    transition: transform 2s; 
+}
+.post8 {
+    width: 23%;
+    height: 120px;
+    text-align: center;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 1), inset 0px -3px 5px rgba(102, 102, 102, 0.5);
+    background-color: #C9F9CB ;
+    background: linear-gradient(to bottom, #C9F9CB, #666666(0, 0, 0, 1));
+    rotate: 5deg;
+    transition: transform 2s; 
+}
+.post1:hover,.post2:hover,.post3:hover,.post4:hover,.post5:hover,.post6:hover,.post7:hover,.post8:hover{
+    transform: scale(1.1) rotate(-10deg)
+}
